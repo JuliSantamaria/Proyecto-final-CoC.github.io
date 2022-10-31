@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Aereolinea</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/mediaquerysindex.css">
+    
+  </head>
+
+  <body>
+        <div class="banner">
+          <nav class="navbar">
+              <a href="index.html" class="logo"><img src="./icons/Logo_hotel_porteño.png" class="logo" alt="logo de hotel"></a>
+              <ul class="menu" id="menu">
+                  <li><a href="Reservas.html">Reservas</a></li>
+                  <li><a href="servicios.html">Servicios</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+                  <li><a href="nosotros.html">Nosotros</a></li>
+              </ul>
+              <div class="menu-bar" id="menu-bar">
+                  <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="user-icon">
+                  <i class="fa-solid fa-user"></i>
+              </div> 
+
+          </nav>
+
+          <main class="hero">
+              <div class="info-content">
+                  <h1 class="content">Reservas</h1>
+              </div>
+          </main>
+        </div>
+
+
+
+     <section class="section-padding">
+      <div class="container">
+        <div class="row">
+          <h1 class="section-title">SISTEMA DE RESERVAS</h1>
+        </div>
+        <div class="row">
+          <div id="menu1" class="col-xs-12 col-md-6 col-lg-4">
+            <div class="about-item">
+              <div class="about-text">
+                <h3><a>Consultar Habitaciones</a></h3>
+                <p>Consulte las habitaciones y fechas disponibles</p>
+                <a class="btn btn-common btn-rm" href="#" onclick="app.mostrarVuelos();">Consultar</a>
+              </div>
+            </div>
+          </div>
+          <div id="menu2" class="col-xs-12 col-md-6 col-lg-4">
+            <div class="about-item">
+              <div class="about-text">
+                <h3><a>Consultar Reservas</a></h3>
+                <p>Consulte sus reservas por número de cédula</p>
+                <input id="docConsulta" class="mb-20 form-control" name="cedula" placeholder="Ingresa tu número de cédula">
+                <a class="btn btn-common btn-rm" href="#" onclick="app.consultarReserva();">Consultar</a>
+              </div>
+            </div>
+          </div>
+          <div id="campodoc" style="display: none;">
+            <form action="javascript:void(0);" method="POST" id="reserva-edit">
+              <p id="datosvuelo"></p>
+              <input type="text" id="documento" placeholder="Cedula de Ciudadania">
+              <input type="submit" value="Reservar" />
+            </form>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <table>
+                <tbody id="vuelos"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <br>
+        <a id="btnback" style="display: none;" href="#" class="btn btn-common btn-rm" onclick="app.Volver();">Volver</a>
+      </div>
+    </section>
+    <hr class="separador">
+    <footer>
+      <div class="redes">
+          <p>Seguinos en nuestras Redes Sociales</p>
+          <div class="contenedor-iconos">
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+          </div>
+          <p>@Copyright 2022. Todos los derechos reservados</p>
+        </div>
+  </footer>
+
+
+  <script src="./jss/Reservas.js"></script>
+  <script src="./jss/scripts.js"></script>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:antiquewhite;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner{
+  height: 100vh;
+}
+
+/* INICIO - Servicios */
+.contenedor{
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
+.service{
+  margin: auto;
+  text-align: center;
+  padding: 5%;
+}
+.row-1,.row-2{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 5%;
+}
+.service-buffet,.service-cafe,.service-cochera{
+  width: 30%;
+  margin: auto;
+}
+.service-gimnasio, .service-business,.service-health{
+  width: 30%;
+  margin: auto;
+}
+.check{
+  text-align: center;
+  color:red;
+  font-size: 24px;
+
+}
+.instalaciones-titulo{
+  margin: auto;
+  padding: 3%;
+}
+.instalaciones h2{
+  text-align: center;
+  padding-bottom: 3%;
+}
+.instalaciones-p{
+  text-align: center;
+}
+.row-3,.row-4,.row-5,.row-6{
+  display: flex;
+  width: 100%;
+  padding: 5%;
+}
+.lobby,.habitaciones,.cocina,.health-club,.gimnasio,.convenciones,.business{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lobby-img img{
+  width: 100%;
+}
+.lobby-titulo {
+  text-align: center;
+  padding: 3%;
+}
+.lobby-descripcion{
+  padding: 3%;
+}
+.habitaciones-titulo{
+  text-align: center;
+  padding: 3%;
+}
+.habitaciones-img img{
+  width: 100%;
+}
+.habitaciones-descripcion{
+  padding: 3%;
+}
+.cocina-titulo{
+  text-align: center;
+  padding: 3%;
+}
+.cocina-img img{
+  width: 100%;
+}
+.cocina-descripcion{
+  padding: 3%;
+}
+.health-titulo{
+  text-align: center;
+  padding: 3%;
+}
+.health-img img{
+  width: 100%;
+}
+.health-descripcion{
+  padding: 3%;
+}
+.gimnasio-titulo{
+  text-align: center;
+  padding: 3%;
+}
+.gimnasio-img {
+  width: 100%;
+}
+.gimnasio-descripcion{
+  padding: 3%;
+}
+.convenciones-titulo{
+  text-align: center;
+  padding: 3%;
+}
+.convenciones-img {
+  width: 100%;
+}
+.convenciones-descripcion{
+  padding: 3%;
+}
+.business-titulo{
+  text-align: center;
+  padding: 3%;
+}
+.business-img {
+  width: 100%;
+}
+.business-descripcion{
+  padding: 3%;
+}
+
+
+
+/* FIN - Servicios */
+/* INICIO - Footer */
+footer{
+  margin-top: auto;
+  height: 30vh;
+}
+.redes{
+  margin: 3%;
+  text-align: center;
+}
+.contenedor-iconos ul li{
+  display: inline-block;
+  margin: 3%;
+}
+.contenedor-iconos ul li a i{
+  color: black;
+  font-size:xx-large;
+}
+/* FIN - Footer */

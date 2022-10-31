@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  max-height: 100vh;
+}
+
+body{
+  background-color:antiquewhite;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.contenedor{
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
+.nosotros{
+  padding: 3%;
+  width: 90%;
+  margin: auto;
+  list-style:square inside;
+  text-align: center;
+}
+.nosotros-titulo{
+  padding-bottom: 3%;
+}
+.nosotros-descripcion{
+  padding-bottom: 3%;
+}
+.galeria{
+  padding: 3%;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.galeria-titulo {
+  padding-bottom: 3%;
+}
+.galeria-subtitulo {
+  padding-bottom: 3%;
+}
+.galeria-descripcion {
+  padding-bottom: 3%;
+}
+.galeria-img{
+  width: 50%;
+  margin: auto;
+}
+.ubicacion{
+  padding: 3%;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.ubicacion h2,h3{
+  padding-bottom: 3%;
+}
+.ubicacion-descripcion{
+  padding-bottom: 3%;
+}
+
+
+#map {
+	height: 500px;
+	width: 100%;
+  margin: auto;
+}
+/* FOOTER */
+footer{
+  margin-top: auto;
+}
+.redes{
+  margin: 3%;
+  text-align: center;
+}
+.contenedor-iconos ul li{
+  display: inline-block;
+  margin: 3%;
+}
+.contenedor-iconos ul li a i{
+  color: black;
+  font-size:xx-large;
+}
+
